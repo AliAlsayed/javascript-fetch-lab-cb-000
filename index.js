@@ -17,7 +17,7 @@ function forkRepo() {
   fetch(`https://api.github.com/repos/${owner}`, {
     method: 'POST',
     headers: {
-      Authorization: 
+      Authorization:
     }
   })
 }
